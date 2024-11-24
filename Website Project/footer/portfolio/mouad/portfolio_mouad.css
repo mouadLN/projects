@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+
+
+
+body {
+    background-image: linear-gradient(to right , purple 0% , purple 50% , black 50% , black 100%);
+    height: 100vh;
+}
+
+.portfolio_card {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box {
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.0));
+    backdrop-filter: blur(10px);
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(78, 74, 74, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+
+}
+
+.content {
+    width: 450px;
+    text-align: left;
+    margin-left: 24px;
+    
+}
+
+.content h1 {
+    color: black;
+
+}
+
+.content h1 b {
+    color:white;
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.content h3 {
+    color:white;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.content p {
+    color: black;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.profil {
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+    
+}
+
+.content .social_link a{
+    display: inline-block;
+    height:60px;
+	width: 60px;
+    margin:0 10px 10px 0;
+    line-height: 300px;
+    border-radius: 50%;
+	color: #000000;
+	transition: all 0.5s ease;
+}
+.content .social_link a:hover{
+color: white;
+transition: 0.7s;
+}
+

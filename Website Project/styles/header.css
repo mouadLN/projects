@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    color: #fff;
+    
+ }
+   
+.logo-uni {
+    height: 80px;
+    width: 210px;
+    cursor: pointer;
+}
+.logo-club {
+    height: 70px;
+    width: 400px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+    }
+.socials {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: space-evenly;
+}
+.instagram {
+    width: 25px;
+    cursor: pointer;
+}
+.whatsapp {
+    width: 25px;
+    cursor: pointer;
+}
+.Facebook {
+    width: 25px;
+    cursor: pointer;
+}
