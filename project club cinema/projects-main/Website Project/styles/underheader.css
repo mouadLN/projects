@@ -1,0 +1,44 @@
+.underheader  {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 850px;
+    position: fixed;
+    top: 90px;
+    left: 270px;
+    right: 240px;
+    background: #444 ;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 1;
+    
+}
+.summary {
+    width: 170px;
+    height: 50px;
+    font-family: roboto;
+    font-size: 14px;
+    background-color:#444;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-right: solid 1px  gray;
+    
+
+    
+    
+
+}
+.summary:hover {
+    background-color: rgba(3, 10, 12, 0.877);
+     color: #f0a500;
+    transition: 0.7s;
+    font-size: 16px;
+
+}
+
+.summary:active {
+    opacity: 0.7;
+
+}
