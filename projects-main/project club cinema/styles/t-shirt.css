@@ -20,6 +20,7 @@ body {
 .warpper {
     background-color: #909090 ;
     width: 500px;
+    height: auto;
     padding: 25px;
     margin: 25px auto 0;
     box-shadow: 0px 0px 20px rgba(243, 243, 243, 0.5);
@@ -151,7 +152,14 @@ body {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    
+}
 
+.taille {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    gap: 7px;
 }
 
 
@@ -194,7 +202,6 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    width: 100%;
     margin-right: 12px;
     position: relative;
     padding-left: 50px;

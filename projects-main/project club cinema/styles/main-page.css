@@ -1,6 +1,7 @@
 
+
 #Bienvenue {
-    background: #555 url('cine.jpg') no-repeat center center/cover;
+    background: #555 url('../images/cine.jpg') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding-top: 200px;
@@ -122,6 +123,10 @@
   .project-description {
     font-size: 1rem;
     color: #ccc; 
+  }
+
+  .projects-container a {
+    text-decoration: none;
   }
   
          /* Ne pas toucher le  @media adapte le site pour tout ecran */
@@ -283,11 +288,12 @@
 
     .T-shirt {
       padding: 40px;
-      display: grid;
+      display: flex;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* permet de rendre la grille plus reponsive au changements de la fenetre */
-      gap: 30px;
       max-width: 1200px;
       margin: 0 auto;
+      justify-content: center;
+      gap: 20px;
   }
    .acheter-button {
     font-size: 1rem;
